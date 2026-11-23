@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Playing Badminton</li>
+        <li>Cycling</li>
+        <li>Hiking</li>
+        <li>Riding</li>
+    </ul>
+    <hr />
+    <h2>Contact</h2>
+    <p>
+        Gmail : ujjwalluitel50@gmail.com<br />
+        Phone No: +977 9816330228
+    </p>
+    <hr />
+
+    <h2>Some Certificates</h2>
+    <img src="./images/certificate_1.jpeg" onclick="document.getElementById('zoom1').style.display='flex'"
+        style="width:450px; height: 350px; cursor:pointer;">
+
+    <div id="zoom1" onclick="this.style.display='none'" style="display:none; position:fixed; inset:0;
+            background:rgba(0,0,0,0.9); justify-content:center;
+            align-items:center; z-index:9999; cursor:zoom-out;">
+
+        <img src="./images/certificate_1.jpeg" style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+
+    <img src="./images/certificate_2.jpeg" onclick="document.getElementById('zoom2').style.display='flex'"
+        style="width:450px; height: 350px; cursor:pointer;">
+
+    <div id="zoom2" onclick="this.style.display='none'" style="display:none; position:fixed; inset:0;
+            background:rgba(0,0,0,0.9); justify-content:center;
+            align-items:center; z-index:9999; cursor:zoom-out;">
+
+        <img src="./images/certificate_2.jpeg" style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+    <hr />
+
+    <a href="./index.html">Previous Page</a>
+
+    <footer style="position:fixed; bottom:0; left:0; width:100%;">
+        <p>Copyright © 2026 My Resume</p>
+    </footer>
+
+</body>
+
+</html>

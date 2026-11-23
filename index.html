@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<body>
+    <h1>Ujwal Babu Luitel</h1>
+    <!-- <img src="./images/pp.jpeg" width="190" height="190" alt="Profile picture" onclick="this.style.transform = this.style.transform === 'scale(2)' ? 'scale(1)' : 'scale(2)'"
+     style="width:200px; cursor:zoom-in; transition:transform 0.3s;"> -->
+    <img src="./images/pp.jpeg" onclick="document.getElementById('zoom0').style.display='flex'" style="width:200px; cursor:pointer;" width="190" height="190" alt="Profile picture">
+
+    <div id="zoom0"
+     onclick="this.style.display='none'"
+     style="display:none; position:fixed; inset:0;
+            background:rgba(0,0,0,0.9); justify-content:center;
+            align-items:center; z-index:9999; cursor:zoom-out;">
+
+        <img src="./images/pp.jpeg" style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+    <h2>Summary</h2>
+    <p>I am a hardworking and dedicated person with full of experience and desire to level up myself.</p>
+    <hr />
+    <h2>Education</h2>
+    <ul>
+        <li>SEE</li>
+        <li>+2</li>
+        <li>Bachelors of Computer Engineering(Studying)</li>
+    </ul>
+    <hr />
+    <h2>Skills</h2>
+    <ul>
+        <li>Fluent in English</li>
+        <li>Better Communication</li>
+        <li>Leadership</li>
+        <li>Hard Working</li>
+    </ul>
+    <hr />
+    <a href = "./next.html">Next Page</a>
+
+    <footer style="position:fixed; bottom:0; left:0; width:100%;">
+        <p>Copyright © 2026 My Resume</p>
+    </footer>
+    
+</body>
+
+</html>
